@@ -5,6 +5,11 @@ Difference between __str__ and __repr__ functions
     If __str__ implementation is missing then __repr__ function is used as fallback. There is no fallback if __repr__ function implementation is missing.
     If __repr__ function is returning String representation of the object, we can skip implementation of __str__ function.
 
+Summary
+
+Both __str__ and __repr__ functions are very similar. We can get the object representation
+in String format as well as other specific formats such as tuple and dict to get information
+ about the object.
 """
 
 
