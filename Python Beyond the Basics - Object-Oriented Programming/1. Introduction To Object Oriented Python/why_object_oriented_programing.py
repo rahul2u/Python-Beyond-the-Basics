@@ -30,18 +30,27 @@ def increment_variable(increment):
     return increment
 
 
-print(increment_variable(2))
+#print(increment_variable(2))
 
 
 # object oriented programing to increase the variables
 class IncrementVaraible(object):
-    def __init__(self):
-        self.val = 0
+    val = 4
+
+    def __int__(self, val):
+        self.val = 1
 
     def increment(self):
         self.val = self.val + 1
 
-    def 
+    def __repr__(self):
+        return str(self.val)
+
+
+p = IncrementVaraible()
+p.increment()
+
+print (p)
 
 
 
