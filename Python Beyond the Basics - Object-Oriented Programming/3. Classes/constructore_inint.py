@@ -26,3 +26,22 @@ __init__ is a keywords variable:it is must be named init
 
 
 """
+
+
+class MyNum():
+    def __init__(self, value):
+        try:
+            value = int(value)
+        except ValueError:
+            value = 0
+        self.val = value
+
+    def increment(self):
+        self.val = self.val + 1
+
+
+i = MyNum(4)
+i.increment()
+print(i.val)
+
+
