@@ -12,7 +12,7 @@ class MyClass(object):
     def __init__(self, value):
         self.val = value
         MyClass.count += 1
-
+               cccccccccccc
     def set_val(self, new_value):
         try:
             value = int(new_value)
